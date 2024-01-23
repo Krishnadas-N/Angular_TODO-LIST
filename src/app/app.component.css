@@ -1,0 +1,112 @@
+.main {
+    max-width: 500px;
+    width: 85%;
+    margin: 2rem auto;
+    padding: 1rem;
+    text-align: center;
+    box-shadow:
+      0 2px 4px 0 rgb(0 0 0 / 20%),
+      0 2.5rem 5rem 0 rgb(0 0 0 / 10%);
+  }
+  
+  @media screen and (min-width: 600px) {
+    .main {
+      width: 70%;
+    }
+  }
+  
+  label {
+    font-size: 1.5rem;
+    font-weight: bold;
+    display: block;
+    padding-bottom: 1rem;
+  }
+  
+  .lg-text-input {
+    width: 100%;
+    padding: 1rem;
+    border: 2px solid #000;
+    display: block;
+    box-sizing: border-box;
+    font-size: 1rem;
+  }
+  
+/* Styling for the filter buttons */
+.btn-wrapper {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  width: 400px;
+  align-items: center;
+  margin-left: 33vw;
+
+}
+
+.btn-menu {
+  background-color: #3498db; /* Blue background color */
+  color: #fff; /* White text color */
+  border: none;
+  padding: 10px 15px;
+  margin: 0 5px;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.btn-menu.active {
+  background-color: #2980b9; /* Darker blue for active state */
+}
+
+.btn-menu:hover {
+  background-color: #2980b9; /* Darker blue on hover */
+}
+
+/* Optional: Add box shadow for a subtle lift effect */
+.btn-menu.active, .btn-menu:hover {
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+  .active {
+    color: rgb(128, 0, 21);
+  }
+  
+  ul {
+    padding-inline-start: 0;
+  }
+  
+  ul li {
+    list-style: none;
+  }
+  
+  /* Style for the alert container */
+.alert-container {
+  
+ /* Red background color */
+  color: #d60707; /* White text color */
+  text-align: center;
+ /* Initially hidden */
+}
+
+
+
+
+.list-class {
+  margin-left: 40px;
+  margin-right: 40px;
+  border: 2px solid #3498db; /* Blue border color */
+  border-radius: 8px; /* Rounded corners */
+  padding: 10px; /* Padding inside the border */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional box shadow for a subtle lift effect */
+}
+.empty-message {
+  margin-left: 40px;
+  margin-right: 40px;
+  margin-top: 20px;
+  text-align: center;
+  padding: 20px;
+  background-color: #ecf0f1; /* Light gray background color */
+  border: 1px solid #bdc3c7; /* Border color */
+  border-radius: 8px; /* Rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional box shadow for a subtle lift effect */
+  color: #7f8c8d; /* Text color */
+}
